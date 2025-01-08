@@ -5,4 +5,4 @@ cheese.onclick = () => {
   alert(typeof int);
   int++;
   //do something with audio
-})
+}
