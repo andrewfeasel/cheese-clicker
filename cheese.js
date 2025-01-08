@@ -2,9 +2,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const counter = document.getElementById('counter');
   const cheese = document.getElementById('cheese');
   cheese.onclick = () => {
-    let int = counter.textContent;
-    alert(typeof int);
+    let int = Math.round(counter.textContent);
     int++;
+    counter.textContent = int;
     //do something with audio
   }
 });
