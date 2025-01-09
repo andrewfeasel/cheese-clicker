@@ -1,4 +1,4 @@
-const sfx = new Audio('./videoplayback');
+const sfx = new Audio('videoplayback');
 document.addEventListener('DOMContentLoaded', () => {
   const counter = document.getElementById('counter');
   const cheese = document.getElementById('cheese');
