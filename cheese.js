@@ -1,4 +1,4 @@
-const sfx = new Audio('videoplayback');
+const sfx = new Audio('./cheese.mp3');
 document.addEventListener('DOMContentLoaded', () => {
   sfx.addEventListener("canplaythrough", (event) => {
     const counter = document.getElementById('counter');
