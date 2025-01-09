@@ -1,5 +1,6 @@
 let clicks = localStorage.getItem('clicks');
 let int = clicks;
+alert(localStorage.getItem('clicks'))
 if(!clicks){
   localStorage.setItem('clicks',0);
   clicks = localStorage.getItem('clicks');
