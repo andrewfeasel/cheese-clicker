@@ -1,11 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
   const counter = document.getElementById('counter');
   const cheese = document.getElementById('cheese');
-  let int;
   cheese.onclick = () => {
-    let int = Math.round(counter.textContent);
+    int = Math.round(counter.textContent.charAt(0));
     int++;
-    counter.textContent = int;
+    counter.textContent.charAt(0) = int;
     //do something with audio
   }
 });
